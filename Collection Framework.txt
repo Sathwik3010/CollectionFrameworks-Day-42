@@ -1,0 +1,82 @@
+wrapper classes
+----------------
+wrapper classes in java(eg Integer, Double, Boolean .. etc) are used to wrap primitive data types(int, double, Boolean etc) into Objects.
+They are part of java.lang packages and server the following purposes.
+
+common wrapper classes
+--------------------------
+Byte for byte
+Short for short
+Integer for int
+Long for long
+Float for float
+Double for double
+Boolean for Boolean
+Character for char
+
+Autoboxing and AutoUnboxing
+-------------------------------
+Autoboxing is the automatic conversion of primitive type to its corresponding wrapper class.
+Auto unboxing is the automatic conversion of a wrapper class Object to its corresponding primitive type.
+
+what are the differences btw arrays and collections
+
+Arrays                                                                                                     Collections
+Arrays are fixed in size                                                             Collection are growable in nature
+
+memory point of view Arrays are not recommended to use                               memory point of view Collections are recommended to 										     use .
+    
+performance point of view arrays are recommended to use                              performance point of view Collections are not recommended to use.
+
+Arrays can hold both primitive and object types 			 	     Collections can hold only object types but not primitive type.
+
+arrays can hold only homogeneous data type elements. 				     Collections can hold both homogeneous and heterogeneous data type elements 
+
+for arrays there is no underlying data structures for arrays                         every collections class is implemented based on some standard data structure and hence readymade support 
+and hence there is no readymade method support 					     is available.
+
+
+Collections
+-----------
+if we want to represent a group of objects as a single entity then we should go for collection
+
+
+9 key interfaces in collection framework
+=========================================
+1. collection
+2. List
+3. set
+4. sorted set
+5. NavigatableSet
+6. Queue
+7. Map
+8. SortedMap
+9. NavigatableMap
+
+----------------------------------------
+what is the difference between Collection and Collections
+--------------------------------------------------------------
+Collection is an interface which can be used to represent a group of objects as a single entity
+
+where as collections is an utility class which is Present in java.util package to define several methods for collection Objects
+
+Collection(Interface)
+----------------------
+if we want to represent a group of individual objects into a single entity then we should go for collection interface. this interface defines the most common general methods which can be applicable for any collection object.
+
+it is the root interface for entire collection framework.
+
+the following is the list of methods present in collection interface
+---------------------------------------------------------------------
+1. boolean add(Object o);
+2. boolean addAll(Collection c);
+3. boolean remove(Object o);
+4. boolean removeAll(Object o);
+5. Boolean retainAll(Collection c);
+6. Void clear();
+7. Boolean contains(Object o);
+8. Boolean containsAll(Object o);
+9. Boolean isEmpty();
+10. Int size();
+11. Object[] toArray();
+12. Iterator iterator();
