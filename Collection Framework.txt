@@ -30,7 +30,7 @@ performance point of view arrays are recommended to use                         
 
 Arrays can hold both primitive and object types 			 	     Collections can hold only object types but not primitive type.
 
-arrays can hold only homogeneous data type elements. 				     Collections can hold both homogeneous and heterogeneous data type elements 
+arrays can hold only homogeneous data type elements. 				     Collections can hold both homogeneous and heterogeneous data type elements.
 
 for arrays there is no underlying data structures for arrays                         every collections class is implemented based on some standard data structure and hence readymade support 
 and hence there is no readymade method support 					     is available.
@@ -79,4 +79,5 @@ the following is the list of methods present in collection interface
 9. Boolean isEmpty();
 10. Int size();
 11. Object[] toArray();
+
 12. Iterator iterator();
